@@ -1,0 +1,35 @@
+.page-dashboard{
+    border: 1px solid #d0760b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    margin: 36px auto;
+    max-width: 200px;
+    flex-direction: column;
+    background-color:  #d1e3e9;
+    filter: drop-shadow(2px 4px 6px black);
+}
+main.dark .page-dashboard{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #013148;
+}
+.newPage{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    padding: 10px;
+    margin: 16px;
+    border-radius: 12px;
+    background-color: #d0760b;
+    color: #fff;
+    box-shadow: 0px 0px 1px 4px darkgoldenrod;
+}
+main.dark .newPage{
+    background-color: #204558;
+    box-shadow: 0px 0px 1px 4px darkslategray;
+}

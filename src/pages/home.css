@@ -1,0 +1,73 @@
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #2da6dd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 460px;
+}
+main.dark .info{
+    background-color: #012E40;
+    color: #d1e3e9;
+    border: none;
+}
+body:has(.dark){
+    background-color: #a7a4a4;
+}
+.info input[type = "text"]{
+    width: 90%;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px;
+}
+input:focus{
+    outline: none;
+}
+.fechas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+main.dark .fechas{
+    color: #d1e3e9;
+}
+.recogida, .devolucion{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.info h2{
+    color: #012E40;
+}
+hr{
+    border-color: #f8a234;
+}
+.img img{
+    width: 500px;
+}
+.info button{
+    background-color: #f8a234;
+    padding: 6px 28px;
+    margin: auto;
+    border-radius: 4px;
+    transition: .2s;
+}
+.info button:hover{
+    background-color: #b67015;
+    color: #fff;
+}
+@media screen and (max-width: 500px){
+    .img img{
+        width: 330px;
+    }
+  }
