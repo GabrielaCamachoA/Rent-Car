@@ -19,6 +19,7 @@ h2{
 form{
     display: flex;
     flex-direction: column;
+    gap: 6px;
 }
 .formulario input[type= "text"], input[type="password"]{
     border: 1px solid;
@@ -44,3 +45,9 @@ main.dark form button{
     background-color: #d1e3e9;
     color: #013148;
 }
+@media screen and (max-width: 500px){
+    .formulario{
+        max-width: 240px;
+        padding: 20px 24px;
+    }
+  }
